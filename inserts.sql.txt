@@ -1,0 +1,15 @@
+USE flamengo;
+
+INSERT INTO jogadores (nome, numero_camisa, posição, flag ativo)
+VALUES 
+( 'Rossi', 1, 'Goleiro', 1),
+( 'Varela', 2, 'Lateral', 1),
+( 'Danilo', 13, 'Zagueiro', 1),
+( 'Leo Pereira', 4, 'Zagueiro', 1),
+( 'Alex Sandro', 26, 'Lateral', 1),
+( 'Erick', 5, 'Volante', 1),
+( 'Jorginho', 21, 'Volante', 1),
+( 'Arrascaeta',10, 'Meio campo', 1),
+( 'Carrascal', 15, 'Ponta direita', 1),
+( 'S.Lino', 16, 'Ponta esquerda', 1),
+( 'B.Henrique, 27, 'Atacante', 1)

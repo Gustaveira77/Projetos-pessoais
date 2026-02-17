@@ -1,0 +1,11 @@
+CREATE DATABASE Flamengo;
+USE Flamengo;
+
+CREATE TABLE jogadores  (
+    código INT PRIMARY KEY AUTO_INCREMENT,
+    nome VARCHAR (255) NOT NULL,
+    numero camisa INT,
+    posição VARCHAR (100),
+    flag ativo INT (11)
+);
+ 

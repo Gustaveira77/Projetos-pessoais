@@ -1,0 +1,14 @@
+USE flamengo;
+
+----- Jogadores ativos
+select * from jogadores
+where flag_ativo = 1;
+
+----- Buscar só atacantes
+select nome, numero_camisa
+from jogadores
+where posicao = 'atacante';
+
+----- Ordenar por número da camisa
+select * from jogadores
+order by numero_camisa;
